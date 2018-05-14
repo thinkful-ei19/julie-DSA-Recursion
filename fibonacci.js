@@ -13,7 +13,6 @@ function fib(input) {
 console.log(fib(5))
 //1 1 2 3 5 
 
-
 // function fibo(int) {  
 //     if (int === 0){
 //       return 0;
@@ -25,3 +24,5 @@ console.log(fib(5))
 //       return fibo(int-1) + fibo(int-2);
 //     }
 //   }
+  
+//   console.log(fibo(7));
