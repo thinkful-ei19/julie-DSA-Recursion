@@ -25,4 +25,4 @@ console.log(fib(5))
 //     }
 //   }
   
-//   console.log(fibo(7));
+//   console.log(fibo(7)); only prints last number

@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 const animalHierarchy = [
     {id: 'Animals', parent: null},
     {id: 'Mammals', parent: 'Animals'},

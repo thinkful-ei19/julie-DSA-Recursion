@@ -12,4 +12,4 @@ console.log(factorial(5))
 //120
 
 
-// factorial(num * (num -1)) infinite recursion
+// factorial(num * (num -1)) infinite recursion can never approach 0
