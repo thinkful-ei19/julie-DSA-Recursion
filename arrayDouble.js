@@ -1,3 +1,5 @@
+'use strict';
+
 function arrayDouble(array) {
     if(!array.length) {
         return []
@@ -7,5 +9,5 @@ function arrayDouble(array) {
 }
     
 
-arrayDouble([1, 2, 3]);
+console.log(arrayDouble([1, 2, 3]));
     
