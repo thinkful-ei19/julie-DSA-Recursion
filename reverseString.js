@@ -10,3 +10,10 @@ function reverseString(string) {
 }
 
 console.log(reverseString('yolo'));
+
+function reverseStringIter(string) {
+    let reverse = string.split("").reverse().join("");
+    return reverse;
+}
+
+console.log(reverseStringIter("helloworld"));
