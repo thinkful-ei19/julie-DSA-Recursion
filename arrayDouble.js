@@ -11,3 +11,13 @@ function arrayDouble(array) {
 
 console.log(arrayDouble([1, 2, 3]));
     
+
+function arrayDoubleIter(array) {
+    let newArray = [];
+    for(let i = 0; i < array.length; i++) {
+        newArray.push(array[i]*2);
+    }
+    return arrayDoubleIter;
+}
+
+console.log(arrayDoubleIter([1, 2, 3]))
