@@ -10,7 +10,7 @@ function anagram(word, chunk){
     }
   }
   
-  anagram("eas","");
+  anagram("east","");
 
 
 // function anagram(prefix="", word) {
