@@ -26,3 +26,13 @@ console.log(fib(5))
 //   }
   
 //   console.log(fibo(7)); only prints last number
+
+function fibonacciIterative2(number){
+    let [num1, num2] = [1,0];
+    while(number-- > 0){
+        [num1, num2] = [num2+num1, num1]
+    }
+    return num2;
+
+}
+console.log(fibonacciIterative2(3));

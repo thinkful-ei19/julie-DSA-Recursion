@@ -13,3 +13,12 @@ console.log(factorial(5))
 
 
 // factorial(num * (num -1)) infinite recursion can never approach 0
+
+function factorialIterative(number){
+    let fact = 1;
+    for (let i = 1; i <= number; i++){
+        fact *= i;
+    }
+    return fact;
+ }
+ console.log(factorialIterative(5));
